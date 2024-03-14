@@ -2636,9 +2636,9 @@ padding-bottom: 220px;
 .close-btn {
     position: absolute;
     top: 20px;
-    right: 30px;
+    right: 90px;
     cursor: pointer;
-    font-size: 29px;
+    font-size: 32px;
     color: #333333;
 }
 /* popup login page design end */
