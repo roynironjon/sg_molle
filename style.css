@@ -3398,7 +3398,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
         padding-bottom: 120px;
     }
     .form-popup {
-        top: -208px;
+        top: -117px;
     }
 }
 
@@ -3570,9 +3570,9 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
     .login-section {
         width: 100%;
     }
-    .login-section .main-content {
+    /* .login-section .main-content {
         padding: 20px 25px;
-    }
+    } */
     .glemt-password .main-content .heading {
         margin-bottom: 35px;
         text-align: center;
