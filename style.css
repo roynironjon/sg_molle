@@ -3746,6 +3746,9 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
     .login-section .hedear h2 {
         font-size: 22px;
     }
+    .owl-theme .owl-nav {
+        display: none;
+    }
 }
 
 @media screen and (max-width:480px){
@@ -3853,12 +3856,12 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
     .slicknav_menu .slicknav_nav form {
         max-width: 290px;
     }
-    .owl-nav .owl-next {
+    /* .owl-nav .owl-next {
         display: none;
     }
     .owl-nav .owl-prev {
         display: none;
-    }
+    } */
     .din-besstilling-product .prodect-header .main-header {
         grid-template-columns: 1fr;
     }
