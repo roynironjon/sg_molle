@@ -137,8 +137,8 @@
                     </ol>
                 </div>
             </div>
-            <a class="btn" href="netrbukk.php">Fortsett å handle</a>
-            <a class="btn-2" href="product_registration.php">Til kassen</a>
+            <a class="btn" href="netrbukk.html">Fortsett å handle</a>
+            <a class="btn-2" href="product_registration.html">Til kassen</a>
         </div>
         </div>
     </header>
@@ -185,16 +185,57 @@
                 <div class="flex-content">
                     <h2>Konto</h2>
                     <div class="inforation">
-                        <p><a href="oppert_parsonal.html">Personlig informasjon</a></p>
+                        <p class="p-none"><a href="oppert_parsonal.html">Personlig informasjon </a></p>
                         <ul>
-                            <li><a href="oppert_address.html">Adresse</a></li>
-                            <li><a href="oppert_Ordrehistorikk.html">Ordrehistorikk</a></li>
-                            <li><a href="oppert_enter.html">Endre passord</a></li>
-                            <li><a href="logout.html">Logg ut</a></li>
+                            <div class="personal-oppert">
+                                <li>
+                                    <a href="oppert_parsonal_page1.html">Personlig informasjon</a>
+                                    <a class="right-angel" href="oppert_parsonal_page1.html"><i class="fa-solid fa-angle-right"></i></a>
+                                </li>
+                            </div>
+                            <li>
+                                <a href="oppert_address.html">Adresse</a>
+                                <a class="right-angel" href="oppert_address.html"><i class="fa-solid fa-angle-right"></i></a>
+                            </li>
+                            <li>
+                                <a href="oppert_Ordrehistorikk.html">Ordrehistorikk</a>
+                                <a class="right-angel" href="oppert_Ordrehistorikk.html"><i class="fa-solid fa-angle-right"></i></a>
+                            </li>
+                            <li>
+                                <a href="oppert_enter.html">Endre passord</a>
+                                <a class="right-angel" href="oppert_enter.html"><i class="fa-solid fa-angle-right"></i></a>
+                            </li>
+                            <li class="last-list">
+                                <a href="#" onclick="toggleLogout()">Logg ut</a>
+                            </li>
                         </ul>
                     </div>
+
+                    <!-- log out section start -->
+                        <section id="popuploginLog" class="login-section overlay-form">
+                            <div class="form-popup">
+                                <div class="hedear logout-header">
+                                    <span class="close-btn" onclick="toggleLogout()"><i class="fa-solid fa-xmark"></i></span>
+                                </div>
+                                <div class="main-content">
+                                    <div class="form logout-form">
+                                        <div class="form">
+                                            <h4>Er du sikker på at du ønsker å logge ut?</h4>
+                                            <form action="#">
+                                                <div class="button">
+                                                    <input type="submit" value="Login">
+                                                </div>
+                                                <a href="#">Cancel</a>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    <!-- log out section end -->
+
                 </div>
-                <div class="flex-content">
+                <div class="flex-content display-none">
                     <h2>Personlig informasjon</h2>
                     <div class="form">
                         <form action="#">

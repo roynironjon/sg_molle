@@ -68,3 +68,13 @@ function togggleForm() {
     var popup = document.getElementById('operetForm');
     popup.style.display = (popup.style.display === 'none' || popup.style.display === '') ? 'flex' : 'none';
 }
+
+
+
+
+
+// popup login page js code
+function toggleLogout() {
+    var popup = document.getElementById('popuploginLog');
+    popup.style.display = (popup.style.display === 'none' || popup.style.display === '') ? 'flex' : 'none';
+}

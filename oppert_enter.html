@@ -137,8 +137,8 @@
                     </ol>
                 </div>
             </div>
-            <a class="btn" href="netrbukk.php">Fortsett å handle</a>
-            <a class="btn-2" href="product_registration.php">Til kassen</a>
+            <a class="btn" href="netrbukk.html">Fortsett å handle</a>
+            <a class="btn-2" href="product_registration.html">Til kassen</a>
         </div>
         </div>
     </header>
@@ -182,7 +182,7 @@
     <section class="oppert_password-section">
         <div class="container">
             <div class="main-password">
-                <div class="flex-content">
+                <div class="flex-content content-none">
                     <h2>Konto</h2>
                     <div class="inforation">
                         <p><a href="oppert_parsonal.html">Personlig informasjon</a></p>
@@ -190,12 +190,37 @@
                             <li><a href="oppert_address.html">Adresse</a></li>
                             <li><a href="oppert_Ordrehistorikk.html">Ordrehistorikk</a></li>
                             <li><a href="oppert_enter.html">Endre passord</a></li>
-                            <li><a href="logout.html">Logg ut</a></li>
+                            <li class="last-list">
+                                <a href="#" onclick="toggleLogout()">Logg ut</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
+                
+                <!-- log out section start -->
+                <section id="popuploginLog" class="login-section overlay-form">
+                    <div class="form-popup">
+                        <div class="hedear logout-header">
+                            <span class="close-btn" onclick="toggleLogout()"><i class="fa-solid fa-xmark"></i></span>
+                        </div>
+                        <div class="main-content">
+                            <div class="form logout-form">
+                                <div class="form">
+                                    <h4>Er du sikker på at du ønsker å logge ut?</h4>
+                                    <form action="#">
+                                        <div class="button">
+                                            <input type="submit" value="Login">
+                                        </div>
+                                        <a href="#">Cancel</a>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <!-- log out section end -->
                 <div class="flex-content">
-                    <h2>Endre passord</h2>
+                    <h2><a href="oppert_parsonal.html"><i class="fa-solid fa-angle-left"></i></a>Endre passord</h2>
                     <div class="form">
                         <form action="#">
                             <div class="password">

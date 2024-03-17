@@ -2251,7 +2251,7 @@ body{
     color: #87565B;
 }
 .login-section .main-content{
-    padding: 20px 60px;
+    padding: 20px 20px;
 }
 .login-section .main-content input{
     width: 100%;
@@ -2454,10 +2454,10 @@ padding-bottom: 220px;
 .oppert_password-section .main-password .flex-content .email-address a{
     color: #333333;
 }
-.oppert_password-section .main-password .oppert-orderhistorikk .top-head-content h2{
+/* .oppert_password-section .main-password .oppert-orderhistorikk .top-head-content h2{
     margin-bottom: 20px;
     font-size: 18px;
-}
+} */
 .oppert_password-section .main-password .oppert-orderhistorikk .top-head-content p{
     color: #333333;
     font-size: 17px;
@@ -2545,9 +2545,10 @@ padding-bottom: 220px;
     padding-top: 60px;
     padding-bottom: 150px;
 }
-.din-besstilling-content .content{
-    max-width: 440px;
-    margin: 0 auto;
+.din-besstilling-content .content {
+	max-width: 440px;
+	margin: 0 auto;
+	text-align: center;
 }
 .din-besstilling-content .content p{
     font-size: 17px;
@@ -2680,7 +2681,36 @@ padding-bottom: 220px;
     cursor: pointer;
 }
 /* poup card section end */
+/* pup up logout section start */
+.oppert_password-section .main-password .flex-content .inforation li .right-angel{
+    display: none;
+}
+.login-section .main-content .logout-form .form h4{
+    font-size: 32px;
+    line-height: 42px;
+    color: #87565B;
+    text-align: center;
+}
+.oppert_password-section .main-password .flex-content h2 a{
+   opacity: 0;
+}
+.oppert_password-section .main-password .flex-content h2 a i{
+    margin: 0px;
+}
+.oppert_password-section .main-password .flex-content .inforation .personal-oppert{
+    display: none;
+}
+.login-section .form-popup .logout-header{
+    padding: 40px;
+    background: #AB898D;
+}
+.login-section .form-popup .logout-header i{
+    font-size: 24px;
+    color: #fff;
+}
 
+
+/* pup up logout section end */
 
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXX
     responsice design start 
@@ -2910,8 +2940,6 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
         position: absolute;
         background: none;
         width: 100%;
-        padding-left: 25px;
-        padding-right: 25px;
     }
     .slicknav_nav {
         position: relative;
@@ -3386,7 +3414,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
         padding-bottom: 90px;
     }
     .oppert_password-section .main-password {
-        grid-template-columns: 1fr 2.5fr;
+        grid-template-columns: 2fr 2.5fr;
     }
     .oppert_password-section .main-password .flex-content h2 {
         font-size: 29px;
@@ -3398,7 +3426,11 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
         padding-bottom: 120px;
     }
     .form-popup {
-        top: -117px;
+        top: -152px;
+    }
+    .din-besstilling-product .prodect-header .main-header .left-content h2 {
+        font-size: 19px;
+        line-height: 40px;
     }
 }
 
@@ -3577,6 +3609,51 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
         margin-bottom: 35px;
         text-align: center;
     }
+    .oppert_password-section .main-password .display-none{
+        display: none;
+    }
+    .oppert_password-section .main-password .flex-content .p-none{
+        display: none;
+    }
+    .oppert_password-section .main-password .flex-content .inforation li i{
+        text-align: right;
+        cursor: pointer;
+    }
+    .oppert_password-section .main-password {
+        grid-template-columns: 1fr;
+    }
+    .oppert_password-section .main-password .flex-content .inforation li{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        border-bottom: 1px solid #333;
+    }
+    .oppert_password-section .main-password .flex-content .inforation .last-list{
+        border: none;
+    }
+    .oppert_password-section .main-password .content-none{
+        display: none;
+    }
+    .oppert_password-section .main-password .flex-content h2 a{
+        color: #333;
+        font-size: 22px;
+    }
+    .oppert_password-section .main-password .flex-content h2 a i{
+        margin-right: 10px;
+    }
+    .oppert_password-section .main-password .flex-content .inforation li .right-angel{
+        display: block;
+    }
+    .oppert_password-section .main-password .flex-content h2 a{
+      opacity: 1;
+    }
+    .oppert_password-section .main-password .flex-content .inforation .personal-oppert{
+        display: block;
+    }
+
 }
 @media screen and (max-width:520px){
     .prodect-section .main-prodect .prodect .offer {
@@ -3781,6 +3858,16 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
     }
     .owl-nav .owl-prev {
         display: none;
+    }
+    .din-besstilling-product .prodect-header .main-header {
+        grid-template-columns: 1fr;
+    }
+    .din-besstilling-product .prodect-header .main-header .left-content h2 {
+        font-size: 19px;
+        line-height: 40px;
+    }
+    .oppert_password-section .main-password .flex-content h2 {
+        font-size: 24px;
     }
 }
 
