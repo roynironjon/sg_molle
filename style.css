@@ -3653,6 +3653,9 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
     .oppert_password-section .main-password .flex-content .inforation .personal-oppert{
         display: block;
     }
+    .owl-theme .owl-nav {
+        display: none;
+    }
 
 }
 @media screen and (max-width:520px){
